@@ -63,5 +63,6 @@ int main()
 	c2.etat = Pallette;
 
 	tabCasier[0] = c1, tabCasier[2] = c2;
-	sizeof c1, sizeof c2;
+	cout << "\nTaille de C1 :" << sizeof c1 << "\nTaille de C2 :" << sizeof c2
+		<< "\nTaille du Rouleau :" << sizeof ro1 << "\nTaille de la Pallette : "<< sizeof pa1;
 }
