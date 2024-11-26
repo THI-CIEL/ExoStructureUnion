@@ -63,4 +63,5 @@ int main()
 	c2.etat = Pallette;
 
 	tabCasier[0] = c1, tabCasier[2] = c2;
+	sizeof c1, sizeof c2;
 }
